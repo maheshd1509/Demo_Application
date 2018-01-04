@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="in.mahesh.demo_application.MainActivity">
 
    <TextView
@@ -13,5 +14,12 @@
        android:textSize="25dp"
        android:text="Hello World...!!!"
        android:gravity="center"/>
+
+   <Button
+       android:id="@+id/btnNext"
+       android:textColor="#000"
+       android:text="Go To Next Activity"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
 
 </LinearLayout>
